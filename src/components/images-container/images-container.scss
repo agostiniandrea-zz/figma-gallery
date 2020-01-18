@@ -1,0 +1,23 @@
+.images-container {
+  position: absolute;
+  top: 100px;
+
+  .title {
+    position: relative;
+    width: 212px;
+    height: 42px;
+    left: 16px;
+    top: 20px;
+
+    font-family: SF Pro Display;
+    font-size: 34px;
+    line-height: 41px;
+
+    color: #323F4B;
+  }
+
+  .images-list {
+    position: relative;
+    margin-top: 20px;
+  }
+}

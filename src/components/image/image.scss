@@ -1,0 +1,37 @@
+.image {
+  display: inline-block;
+  width: 162px;
+  height: 200px;
+  left: 47.23%;
+  right: 5.54%;
+  top: 0%;
+  bottom: 68.5%;
+
+  border-radius: 8px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+
+  .like-button {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 20px;
+    bottom: 20px;
+    border-radius: 20px;
+    background: #FFFFFF;
+
+    .icon {
+      position: relative;
+      display: inline-block;
+      top: 30%;
+      width: 16px;
+      height: 14px;
+      background-image: url(../../assets/icons/liked.svg);
+    }
+
+    &.active {
+      .icon {
+        background-image: url(../../assets/icons/liked-active.svg);
+      }
+    }
+  }
+}
