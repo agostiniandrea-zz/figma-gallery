@@ -31,7 +31,6 @@ const initialState: PagesState = {
 export default function (state: PagesState = initialState, action: any) {
   switch (action.type) {
     case "SET_PAGE":
-      console.log(action.payload.id);
       return setPage(state, action.payload.id);
     default:
       return state;
